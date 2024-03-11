@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    text-align: center;
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.glow {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+        background: #f0f0f0;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    header {
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    
+    header .logo {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+    main {
+        padding: 2rem;
+    }
+    
+    .intro h1 {
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+    
+    .intro p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .prediction-form form {
+        background: #fff;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .input-group {
+        margin-bottom: 1rem;
+    }
+    
+    .input-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    
+    .input-group input {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .submit-btn {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        border: none;
+        background: #5cb85c;
+        color: #fff;
+        margin-top: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+    }
+    
+    .submit-btn:hover {
+        background: #4cae4c;
+    }
+    
+    .note {
+        font-style: italic;
+        opacity: 0.8;
+        margin-top: 1rem;
+    }
+    
+    .results {
+        margin-top: 2rem;
+    }
+    
+    figure img {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: 2rem auto;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer {
+        text-align: center;
+        padding: 1rem 0;
+        background: #333;
+        color: #fff;
+    }
+    
+    footer p {
+        margin: 0;
+    }
+    
+    color: #E0E0E0;
+    text-shadow: 0 0 8px #F5A623;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #F5A623, 0 0 20px #F5A623, 0 0 30px #E0E0E0;
+    }
+    to {
+        text-shadow: 0 0 20px #F5A623, 0 0 30px #F5A623, 0 0 40px #E0E0E0;
+    }
+}
+
+/* Additional styling specific to the form */
+.time-frame {
+    background: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.time-frame:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+input[type="date"] {
+    background-color: #262626;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.predict-button {
+    background: linear-gradient(45deg, #F5A623, #FFC107);
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.predict-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+.note {
+    background-color: rgba(255, 168, 0, 0.1);
+    border-left: 4px solid #F5A623;
+}
+
